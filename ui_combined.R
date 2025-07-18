@@ -1,5 +1,31 @@
-# UI for StatInsight Pro Dashboard
+# StatInsight Pro - Combined UI File
+# Dashboard Analisis Statistik Terpadu
 
+# Load required libraries
+library(shiny)
+library(shinydashboard)
+library(DT)
+library(plotly)
+library(ggplot2)
+library(dplyr)
+library(leaflet)
+library(shinycssloaders)
+library(shinyWidgets)
+library(readr)
+library(readxl)
+library(car)
+library(nortest)
+library(broom)
+library(knitr)
+library(rmarkdown)
+library(officer)
+library(flextable)
+library(corrplot)
+library(VIM)
+library(mice)
+library(psych)
+
+# UI Definition
 ui <- dashboardPage(
   skin = "blue",
   

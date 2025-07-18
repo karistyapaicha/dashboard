@@ -1,6 +1,7 @@
-# StatInsight Pro - Dashboard Analisis Statistik Terpadu
+# StatInsight Pro - Combined Application
+# Dashboard Analisis Statistik Terpadu
 # Author: AI Assistant
-# Version: 1.0
+# Version: 2.0
 
 # Load required libraries
 library(shiny)
@@ -25,10 +26,11 @@ library(corrplot)
 library(VIM)
 library(mice)
 library(psych)
+library(reshape2)
 
-# Source UI and Server files
-source("ui.R")
-source("server.R")
+# Source combined UI and Server files
+source("ui_combined.R")
+source("server_combined.R")
 
 # Run the application
 shinyApp(ui = ui, server = server)
